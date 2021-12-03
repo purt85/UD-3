@@ -7,12 +7,11 @@
 3) Изменить задний фон постера с фильмом на изображение "bg.jpg". Оно лежит в папке img.
 Реализовать только при помощи JS
 
-4) Список фильмов на странице сформировать на основании данных из этого JS файла.
-Отсортировать их по алфавиту 
+4) Список фильмов на странице сформировать на основании данных из этого JS файла. их по алфавиту 
 
 5) Добавить нумерацию выведенных фильмов */
 
-//'use strict';
+'use strict';
 
 const movieDB = {
     movies: [
@@ -42,7 +41,7 @@ movieDB.movies.sort();
 movieDB.movies.forEach((film, i) => {
     movieList.innerHTML += `
         <li class = "promo__interactive-item"> ${i+1} ${film}
-            <div class = "delete" >  </div>
+            <div class = "delete" >  
         </li>
     `;
 });
