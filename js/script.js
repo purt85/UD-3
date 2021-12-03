@@ -12,7 +12,7 @@
 
 5) Добавить нумерацию выведенных фильмов */
 
-'use strict';
+//'use strict';
 
 const movieDB = {
     movies: [
