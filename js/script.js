@@ -48,4 +48,5 @@ movieDB.movies.forEach((film, i) => {
 });
 
 console.log(poster.innerHTML);
+console.log(poster.innerHTML);
 //nor branch
